@@ -1,0 +1,6 @@
+export { default as List } from './list'
+export { default as Create } from './create'
+export { default as Edit } from './edit'
+export { default as Delete } from './delete'
+export { default as ChangePassword } from './change-password'
+export { default as RolesAndPermissions } from './roles-and-permissions'

@@ -1,0 +1,15 @@
+export enum ROUTE {
+    CREATE = 'create',
+    UPDATE = 'update',
+    DELETE = 'delete',
+    LIST = 'list',
+    USERS = 'users',
+    GROUPS = 'groups',
+    ENDPOINTS = 'endpoints',
+    PERMISSIONS = 'permissions',
+    DETAIL = 'detail',
+    COMPANIONS = 'companions',
+    COMPANIES = 'companies',
+    ROLES_AND_PERMISSIONS = 'roles-and-permissions',
+    CHANGE_PASSWORD = 'change-password',
+}

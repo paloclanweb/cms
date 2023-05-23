@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "baseUrl": ".",
+    "lib": [
+      "dom.iterable",
+      "esnext",
+      "DOM",
+    ],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "strictNullChecks": true,
+    "paths": {
+        "@/*": [
+            "src/*"
+        ],
+        "packageJson": [
+            "package.json"
+        ],
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "**/*.spec.ts"
+  ],
+}

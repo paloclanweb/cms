@@ -1,0 +1,35 @@
+const tr = {
+	login: 'Giriş Yap',
+	logout: 'Çıkış Yap',
+	add: 'Yeni bir {{ value }} Ekle',
+	edit: 'Düzenle',
+	delete: 'Sil',
+	copy: 'Kopyala',
+	reset: 'Sıfırla',
+	list: 'Liste',
+	update: 'Güncelle',
+	create: 'Oluştur',
+	roles_and_permissions: 'Roller ve Yetkiler',
+	change_password: 'Şifre Değiştir',
+	users: 'Kullanıcılar',
+	search: 'Arama',
+	name: 'Ad',
+	surname: 'Soyad',
+	first_name: 'Ad',
+	last_name: 'Soyad',
+	full_name: 'Tam Ad',
+	email: 'E-Posta',
+	phone: 'Telefon',
+	description: 'Açıklama',
+	admin_user: 'Yönetici Kullanıcı',
+	last_login: 'Son Giriş Zamanı',
+	messages: {
+		error: 'Bir hata oluştu, lütfen tekrar deneyin.',
+		success: '{{ value }} {{ action }} başarılı.',
+		phone: 'Lütfen geçerli bir telefon numarası girin',
+		email: 'Lütfen geçerli bir e-posta adresi girin.',
+		not_nullable: 'Lütfen bir değer girin.',
+	}
+} as const
+
+export default tr
